@@ -541,9 +541,9 @@ checksum = "771fe0050b883fcc3ea2359b1a96bcfbc090b7116eae7c3c512c7a083fdf23d3"
 
 [[package]]
 name = "bstr"
-version = "0.2.16"
+version = "0.2.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "90682c8d613ad3373e66de8c6411e0ae2ab2571e879d2efbf73558cc66f21279"
+checksum = "ba3569f383e8f1598449f1a423e72e99569137b47740b1da11ef19af3d5c3223"
 dependencies = [
  "lazy_static",
  "memchr",
@@ -2883,7 +2883,7 @@ checksum = "c7d73b3f436185384286bd8098d17ec07c9a7d2388a6599f824d8502b529702a"
 [[package]]
 name = "libp2p"
 version = "0.40.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "atomic",
  "bytes 1.1.0",
@@ -2945,7 +2945,7 @@ dependencies = [
 [[package]]
 name = "libp2p-core"
 version = "0.30.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "asn1_der",
  "bs58",
@@ -2978,7 +2978,7 @@ dependencies = [
 [[package]]
 name = "libp2p-dns"
 version = "0.30.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "futures",
  "libp2p-core 0.30.0",
@@ -2990,7 +2990,7 @@ dependencies = [
 [[package]]
 name = "libp2p-gossipsub"
 version = "0.33.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "asynchronous-codec",
  "base64 0.13.0",
@@ -3017,7 +3017,7 @@ dependencies = [
 [[package]]
 name = "libp2p-identify"
 version = "0.31.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "futures",
  "libp2p-core 0.30.0",
@@ -3032,7 +3032,7 @@ dependencies = [
 [[package]]
 name = "libp2p-metrics"
 version = "0.1.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "libp2p-core 0.30.0",
  "libp2p-identify",
@@ -3043,7 +3043,7 @@ dependencies = [
 [[package]]
 name = "libp2p-mplex"
 version = "0.30.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "asynchronous-codec",
  "bytes 1.1.0",
@@ -3060,7 +3060,7 @@ dependencies = [
 [[package]]
 name = "libp2p-noise"
 version = "0.33.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "bytes 1.1.0",
  "curve25519-dalek",
@@ -3081,7 +3081,7 @@ dependencies = [
 [[package]]
 name = "libp2p-swarm"
 version = "0.31.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "either",
  "futures",
@@ -3096,7 +3096,7 @@ dependencies = [
 [[package]]
 name = "libp2p-swarm-derive"
 version = "0.25.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "quote",
  "syn",
@@ -3105,7 +3105,7 @@ dependencies = [
 [[package]]
 name = "libp2p-tcp"
 version = "0.30.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "futures",
  "futures-timer",
@@ -3121,7 +3121,7 @@ dependencies = [
 [[package]]
 name = "libp2p-websocket"
 version = "0.31.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "either",
  "futures",
@@ -3138,7 +3138,7 @@ dependencies = [
 [[package]]
 name = "libp2p-yamux"
 version = "0.34.0"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "futures",
  "libp2p-core 0.30.0",
@@ -3620,7 +3620,7 @@ dependencies = [
 [[package]]
 name = "multistream-select"
 version = "0.10.4"
-source = "git+https://github.com/sigp/rust-libp2p?branch=minimize-iwant#f9d542c21efcbe8805bf50a8150447b185b6de81"
+source = "git+https://github.com/sigp/rust-libp2p?branch=age-blend#1664ba23d853d79de24affc90f206dc8d3b10506"
 dependencies = [
  "bytes 1.1.0",
  "futures",

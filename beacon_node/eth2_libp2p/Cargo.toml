@@ -49,7 +49,7 @@ superstruct = "0.2.0"
 #version = "0.39.1"
 default-features = false
 git = "https://github.com/sigp/rust-libp2p"
-branch = "minimize-iwant"
+branch = "age-blend"
 features = ["websocket", "identify", "mplex", "yamux", "noise","gossipsub-metrics", "gossipsub", "dns-tokio", "tcp-tokio"]
 
 [dev-dependencies]

@@ -860,6 +860,9 @@ impl<TSpec: EthSpec> NetworkBehaviourEventProcess<GossipsubEvent> for Behaviour<
                     self.peer_manager.remove_subscription(&peer_id, subnet_id);
                 }
             }
+            GossipsubEvent::GossipsubNotSupported { peer_id } => {
+                warn!(self.log, "Peer does not support gossipsub"; "peer_id" => %peer_id);
+            }
         }
     }
 }
