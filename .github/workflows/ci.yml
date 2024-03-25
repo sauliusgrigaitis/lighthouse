@@ -1,0 +1,19 @@
+name: CI Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, macos-14]
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install Rust
+      run: rustup toolchain install stable --profile minimal
+    - name: Run tests
+      run: cargo test --release gossipsub
